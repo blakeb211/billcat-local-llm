@@ -22,7 +22,7 @@ prompt will be created and sent to the LLM.
 * This is prototype to display the technique, nothing more and not production code.
 
 # Install
-* Download the mistral-7b or similar LLM model file **(Google: "mistral-7b-instruct-v0.2.Q4_K_M.gguf huggingface")** from huggingface and put it in its own directory. You'll see where to tweak the location inside of *main.py*.
+* Download the mistral-7b or similar LLM model file **(Google: "mistral-7b-instruct-v0.2.Q4_K_M.gguf huggingface")** from huggingface and put it in its own directory.
 * Change the folder `/home/bb/llms` in main.py to point to your model file. (mistral-7b recommended, but others work!)
 * ```python3.10 -m venv myenv``` # create virtual environment
 * ```source myenv/bin/activate``` # activate virtual environment
