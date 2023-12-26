@@ -1,0 +1,4 @@
+llama_cpp_python==0.2.25
+pandas==2.1.4
+PyQt5==5.15.10
+QtPy==2.4.1
