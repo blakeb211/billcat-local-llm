@@ -1,5 +1,5 @@
 # Credit Card Statement Categorizer using AI (private, no cloud)
-* A local (no cloud, doesn't even require internet) Large Language Model (LLM) 
+* A local (doesn't even require internet) Large Language Model (LLM) 
 performs the task of reading credit card transaction descriptions (messy text) 
 and assigning the best category out of a list you give it.
 
