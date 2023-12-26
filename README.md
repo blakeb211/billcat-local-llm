@@ -15,7 +15,7 @@ prompt will be created and sent to the LLM.
 * <img src="screenshots/GUI_window_to_prompt_LLM_with_examples.png" alt="hi" class="inline"/>
 * Timing data and debug info is printed to the console as the spreadsheet file is processed line by line.
 * It outputs a new **results.csv** spreadsheet with a column "Category_LLM" containing the category selected by the LLM. 
-* This should give a strong but imperfect set of categories for final tweaking. 
+* They won't be perfect but they are very good for having no database or human involved.
 
 # Caveats
 * This is prototype to display the technique, nothing more and not production code.
