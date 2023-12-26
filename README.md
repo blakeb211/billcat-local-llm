@@ -5,7 +5,8 @@ and assigning the best category out of a list you give it.
 
 # Why 
 * To show an example of how to setup an LLM comparable to GPT3 on your laptop
-for something useful. This is not the most profound example... 
+for something useful. This is not the most profound example...
+**Your own local AI model like ChatGPT but without the subscription or the privacy concern of sending them your data...**
 * Demonstrate prompt engineering an LLM to give you the answer you want.
 * Demonstrate prototyping NLP projects quickly with an LLM .
 
