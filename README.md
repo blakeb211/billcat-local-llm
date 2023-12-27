@@ -1,27 +1,26 @@
 # Credit Card Statement Categorizer using AI (private, no cloud)
-* A local (doesn't even require internet) Large Language Model (LLM) 
+* A local (no internet required) Large Language Model (LLM) 
 performs the task of reading credit card transaction descriptions (messy text) 
 and assigning the best category out of a list you give it.
 
 # Why 
 * To show an example of how to setup an LLM comparable to GPT3 on your laptop
 for something useful. This is not the most profound example...
-**It uses a private, local AI model like ChatGPT but without the subscription or the privacy concern of sending them your data.**
+**It uses a private, local AI model like ChatGPT but without the subscription or the privacy concerns.**
 * Demonstrate prompt engineering an LLM to give you the answer you want.
-* Demonstrate prototyping NLP projects quickly with an LLM .
+* Demonstrate prototyping NLP projects quickly with an LLM.
 
 # How it works
 * Optionally enter some examples via the GUI window and click the button. A custom
 prompt will be created and sent to the LLM.
 * <img src="screenshots/GUI_window_to_prompt_LLM_with_examples.png" alt="hi" class="inline"/>
 * Timing data and debug info is printed to the console as the spreadsheet file is processed line by line.
-* It outputs a new **results.csv** spreadsheet with a column "Category_LLM" containing the category selected by the LLM. 
-* They won't be perfect but they are very good for having no database or human involved.
-
+* It outputs a new **results.csv** spreadsheet with a column "Category_LLM" containing the category selected by the LLM.
+  
 # Caveats
-* This is prototype to display the technique, nothing more and not production code.
+* This is a prototype to display the technique, nothing more and not production code.
 
-# Install
+# Install 💥
 * Download the mistral-7b or similar LLM model file **(Google: "mistral-7b-instruct-v0.2.Q4_K_M.gguf huggingface")** from huggingface and put it in its own directory.
 * Change the folder `/home/bb/llms` in main.py to point to your model file. (mistral-7b recommended, but others work!)
 * ```python3.10 -m venv myenv``` # create virtual environment
