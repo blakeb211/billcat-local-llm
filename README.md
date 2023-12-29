@@ -4,10 +4,10 @@ performs the task of reading credit card transaction descriptions (messy text)
 and assigning the best category out of a list you give it.
 
 # Why 
-* Showcases an advanced NLP use case of LLMs with no subscriptions or privacy concerns like one might have when through a third party cloud api.
-* To show an example of how to setup an local LLM comparable to GPT3. 
+* Showcase an advanced NLP use case of LLMs with no subscriptions or privacy concerns like one might have when through a third party cloud api.
+* To show an example of how to setup a local LLM comparable to GPT3. 
 * Demonstrate prompt engineering an LLM (and sanitizing the output) to do your bidding. Uses a GUI to create a useful prompt.
-* Example of rapid prototyping something to get an idea if it is worth polishing.
+* Give an example of rapid prototyping something to get an idea if it is worth polishing.
 
 # How it works
 * Optionally enter some examples via the GUI window and click the button. A custom
