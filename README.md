@@ -25,8 +25,10 @@ prompt will be created and sent to the LLM.
 * ```python3.10 -m venv myenv``` # create virtual environment
 * ```source myenv/bin/activate``` # activate virtual environment
 * Install python package *llama-cpp-python* with or without cuda support 
-* To install with cuda: `FORCE_CMAKE=1 CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python`
-* If you want to use CPU only, (10-30x slower per answer, but still delivers the point) just skip the line above.
+* To install with cuda:
+    - install cmake if needed, e.g. `apt-get install cmake` on linux
+    - `FORCE_CMAKE=1 CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python`
+* If you want to use CPU only, (10-30x slower per answer, but still delivers the point) just skip the line above
 * Install the other dependencies:
 * ```pip install -r requirements.txt```
 * Run with  `python main.py`
